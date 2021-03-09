@@ -1,0 +1,8 @@
+body { 
+    color: black; background-color: chartreuse;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {font-style: italic; font-size: larger;border: 5px solid yellowgreen;}
+h1 {font-size: xx-large; color: red;}
+nav {font-style: oblique; font-weight: lighter; color: purple;}
+.sponsers {font-size:x-small;}
+p {font-weight: bolder;}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.HTML">terug naar homepage</a>
+        </nav>
+
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your age: <input type="number" name="name" /></label>
+            </p>
+            <p>
+                <label>date of birth: <input type="date" name="geboorte datum" /></label>
+            </p>
+            <p>
+                <p>geslacht</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+            <p>
+                <label>Your tel: <input type="number" name="number" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+           
+            
+            
+          <p>
+              <p>favoriete cuisine</p>
+                <input type="checkbox" id="eten1" name="eten1" value="frans">
+                <label for="vehicle1"> Frans</label><br>
+                <input type="checkbox" id="eten2" name="eten2" value="Itiliaans">
+                <label for="vehicle2"> Itiliaans</label><br>
+                <input type="checkbox" id="eten3" name="eten3" value="spaans of Arabisch">
+                <label for="vehicle3"> spaans of Arabisch </label><br>
+            </p>
+            <p><label for="favcolor">favoriete kleur van short:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br></p>
+            
+            <p>
+                <label>biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <p>upload je laatste recept</p>
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile">
+
+            </p>
+            <p><input type="reset"></p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+
+        </form>
+
+
+
+
+    </main>
+</body>
+
+</html>
